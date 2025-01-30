@@ -11,3 +11,17 @@ if (purchaseAmount > 100) {
 };
 console.log(`Final amount after discount: $${purchaseAmount}`); 
 
+//////////////////////
+// Task 2: For Loop //
+//////////////////////
+
+console.log('--------------------------------------');
+console.log('Task 2: For Loop');
+
+let sales = [98, 76, 110, 36, 236];
+let sum = 0;
+
+for (let index = 0; index < sales.length; index++) {
+    sum += sales[index];
+}
+console.log(`Sales Total: $${sum}`)
