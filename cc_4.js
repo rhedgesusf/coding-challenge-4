@@ -81,3 +81,17 @@ let products = ["Laptop", "Keyboard", "Monitor"];
 for (let product of products) {
     console.log(`Product Name: ${product}`);
 }
+
+//////////////////////////////
+// Task 7: forEach() Method //
+//////////////////////////////
+
+console.log('--------------------------------------');
+console.log('Task 7: forEach() Method');
+
+let orders = [10,11,12,13,14];
+
+orders.forEach((order, index) => {
+    console.log(`Order ${index + 1}: ${order}`);
+});
+
