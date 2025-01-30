@@ -52,3 +52,20 @@ do {
     console.log("Responses:", responses);
     responses++
 } while (responses <= 3);
+
+////////////////////////////
+// Task 5: For... In Loop //
+////////////////////////////
+
+console.log('--------------------------------------');
+console.log('Task 5: For... In Loop');
+
+let employee = {
+    name: "Bill",
+    position: "Manager",
+    salary: 80000
+};
+
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`);
+}
