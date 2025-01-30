@@ -69,3 +69,15 @@ let employee = {
 for (let property in employee) {
     console.log(`${property}: ${employee[property]}`);
 }
+
+///////////////////////////
+// Task 6: For...Of Loop //
+///////////////////////////
+
+console.log('--------------------------------------');
+console.log('Task 6: For...Of Loop');
+
+let products = ["Laptop", "Keyboard", "Monitor"];
+for (let product of products) {
+    console.log(`Product Name: ${product}`);
+}
