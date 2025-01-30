@@ -35,7 +35,7 @@ console.log('Task 3: While Loops');
 
 let stock = 10;
 while (stock >= 0) {
-    console.log("Stock Value Decreasing:", stock);
+    console.log(`Stock Value Decreasing: ${stock}`);
     stock--;
 }
 
