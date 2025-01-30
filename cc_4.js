@@ -38,3 +38,17 @@ while (stock >= 0) {
     console.log("Stock Value Decreasing:", stock);
     stock--;
 }
+
+/////////////////////////////
+// Task 4: Do...While Loop //
+/////////////////////////////
+
+console.log('--------------------------------------');
+console.log('Task 4: Do...While Loop');
+
+let responses = 0;
+
+do {
+    console.log("Responses:", responses);
+    responses++
+} while (responses <= 3);
