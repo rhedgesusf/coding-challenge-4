@@ -49,7 +49,7 @@ console.log('Task 4: Do...While Loop');
 let responses = 0;
 
 do {
-    console.log("Responses:", responses);
+    console.log(`Responses: ${responses}`);
     responses++
 } while (responses <= 3);
 
