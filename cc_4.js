@@ -112,5 +112,20 @@ let taxRate = .07;
 
 console.log(`Tax Amount: $${calculateTax(num, taxRate).toFixed(2)}`);
 
+//////////////////////////////////
+// Task 9: Function Expressions //
+//////////////////////////////////
+
+console.log('--------------------------------------');
+console.log('Task 9: Function Expressions');
+
+let applyDiscount = function(price, discount) {
+    return price * (1 - discount);
+}
+let discount = .05;
+let price = 500;
+
+console.log(`Discounted Price: $${applyDiscount(price, discount)}`);
+
 
 
